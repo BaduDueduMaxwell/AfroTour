@@ -24,8 +24,8 @@ export default function NavLink({ items, isMobile }) {
               href={item.href}
               className={`block py-2 pl-3 pr-4 rounded md:p-0 ${
                 item.active
-                  ? "text-white bg-sky-700 md:bg-transparent md:text-sky-700 md:dark:text-sky-500"
-                  : "text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-sky-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  ? "text-slate-50 bg-sky-700 md:bg-transparent md:text-sky-700 md:dark:text-sky-500"
+                  : "text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-sky-700 dark:text-slate-50 dark:hover:bg-gray-700 dark:hover:text-slate-50 md:dark:hover:bg-transparent"
               }`}
               aria-current={item.active ? "page" : undefined}
             >

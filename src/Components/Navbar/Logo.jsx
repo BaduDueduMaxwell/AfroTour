@@ -9,7 +9,7 @@ export default function Logo() {
           className="h-8 mr-3"
           alt="AfroTour Logo"
         />
-        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-slate-50">
           AfroTour
         </span>
       </a>
