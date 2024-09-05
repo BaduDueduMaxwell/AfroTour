@@ -1,3 +1,4 @@
+// NavLink.jsx
 import React from "react";
 
 export default function NavLink({ items, isMobile }) {
@@ -5,8 +6,8 @@ export default function NavLink({ items, isMobile }) {
     <div
       className={`${
         isMobile
-          ? "absolute top-16 left-0 w-full h-screen bg-white dark:bg-gray-900 pl-5 ml-32 flex flex-col items-start justify-normal sm:hidden"
-          : "hidden w-full md:flex md:w-auto md:order-1"
+          ? "absolute top-16 left-0 w-full h-screen bg-white dark:bg-gray-900 pl-5 ml-32 flex flex-col items-start justify-normal"
+          : "hidden md:flex md:w-auto md:order-1"
       }`}
       id="navbar-sticky"
     >

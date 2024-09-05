@@ -1,3 +1,4 @@
+// Navbar.jsx
 import React, { useState } from "react";
 import Logo from "./Logo";
 import NavLink from "./NavLink";
@@ -23,7 +24,7 @@ export default function Navbar() {
         <Logo />
 
         {/* Mobile Menu Toggle Button */}
-        <div className="sm:hidden">
+        <div className="md:hidden">
           {!nav ? (
             <AiOutlineMenu size={30} className="cursor-pointer text-slate-50" onClick={handleNav} />
           ) : (
