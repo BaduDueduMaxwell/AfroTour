@@ -109,40 +109,38 @@ export default function Footer() {
             </div>
           </div>
           <div className="px-4 py-6 dark:bg-sky-400 md:flex md:items-center md:justify-between">
-            <span className="text-sm text-white dark:text-black sm:text-center">
+            <span className="text-sm text-slate-50 dark:text-black sm:text-center">
               © 2023 <a href="https://flowbite.com/">AfroTour™</a>. All Rights
               Reserved.
             </span>
             <div className="flex mt-4 space-x-5 sm:justify-center md:mt-0">
               <a
                 href="#"
-                className="text-black hover:text-black dark:hover:text-white"
+                className="text-black hover:text-black dark:hover:text-slate-50"
               >
-
                 <span className="sr-only">Facebook page</span>
               </a>
               <a
                 href="#"
-                className="text-black hover:text-black dark:hover:text-white"
+                className="text-black hover:text-black dark:hover:text-slate-50"
               >
-
                 <span className="sr-only">Discord community</span>
               </a>
               <a
                 href="#"
-                className="text-black hover:text-black dark:hover:text-white"
+                className="text-black hover:text-black dark:hover:text-slate-50"
               >
                 <span className="sr-only">Twitter page</span>
               </a>
               <a
                 href="#"
-                className="text-black hover:text-black dark:hover:text-white"
+                className="text-black hover:text-black dark:hover:text-slate-50"
               >
                 <span className="sr-only">GitHub account</span>
               </a>
               <a
                 href="#"
-                className="text-black hover:text-black dark:hover:text-white"
+                className="text-black hover:text-black dark:hover:text-slate-50"
               >
                 <span className="sr-only">Dribbble account</span>
               </a>

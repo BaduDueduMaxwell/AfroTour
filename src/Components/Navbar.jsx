@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineHome } from "react-icons/ai";
 import { GrProjects } from "react-icons/gr";
 
-const Sidenav = () => {
+const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleNav = () => {
     setNav(!nav);
@@ -29,7 +29,7 @@ const Sidenav = () => {
             className="w-[50%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
             <GrProjects size={20} />
-            <span className="pl-4">Packages</span>
+            <span className="pl-4">Tour</span>
           </a>
           {/*  */}
           <a
@@ -58,14 +58,14 @@ const Sidenav = () => {
                   className="h-8 mr-3"
                   alt="Flowbite Logo"
                 />
-                <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+                <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-slate-50">
                   AfroTour
                 </span>
               </a>
               <div className="flex md:order-2">
                 <button
                   type="button"
-                  className="text-white bg-sky-700 hover:bg-sky-800 focus:ring-4 focus:outline-none focus:ring-sky-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-sky-600 dark:hover:bg-sky-700 dark:focus:ring-sky-800"
+                  className="text-slate-50 bg-sky-700 hover:bg-sky-800 focus:ring-4 focus:outline-none focus:ring-sky-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-sky-600 dark:hover:bg-sky-700 dark:focus:ring-sky-800"
                 >
                   Get started
                 </button>
@@ -93,7 +93,8 @@ const Sidenav = () => {
                     />
                   </svg>
                 </button>
-              </div>
+              </div>{" "}
+              {/* break 2*/}
               <div
                 className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
                 id="navbar-sticky"
@@ -102,7 +103,7 @@ const Sidenav = () => {
                   <li>
                     <a
                       href="/"
-                      className="block py-2 pl-3 pr-4 text-white bg-sky-700 rounded md:bg-transparent md:text-sky-700 md:p-0 md:dark:text-sky-500"
+                      className="block py-2 pl-3 pr-4 text-slate-50 bg-sky-700 rounded md:bg-transparent md:text-sky-700 md:p-0 md:dark:text-sky-500"
                       aria-current="page"
                     >
                       Home
@@ -111,7 +112,7 @@ const Sidenav = () => {
                   <li>
                     <a
                       href="packages"
-                      className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-sky-700 md:p-0 md:dark:hover:text-sky-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                      className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-sky-700 md:p-0 md:dark:hover:text-sky-500 dark:text-slate-50 dark:hover:bg-gray-700 dark:hover:text-slate-50 md:dark:hover:bg-transparent dark:border-gray-700"
                     >
                       Packages
                     </a>
@@ -119,7 +120,7 @@ const Sidenav = () => {
                   <li>
                     <a
                       href="#"
-                      className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-sky-700 md:p-0 md:dark:hover:text-sky-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                      className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-sky-700 md:p-0 md:dark:hover:text-sky-500 dark:text-slate-50 dark:hover:bg-gray-700 dark:hover:text-slate-50 md:dark:hover:bg-transparent dark:border-gray-700"
                     >
                       Services
                     </a>
@@ -127,7 +128,7 @@ const Sidenav = () => {
                   <li>
                     <a
                       href="#"
-                      className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-sky-700 md:p-0 md:dark:hover:text-sky-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                      className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-sky-700 md:p-0 md:dark:hover:text-sky-500 dark:text-slate-50 dark:hover:bg-gray-700 dark:hover:text-slate-50 md:dark:hover:bg-transparent dark:border-gray-700"
                     >
                       Contact
                     </a>
@@ -142,4 +143,4 @@ const Sidenav = () => {
   );
 };
 
-export default Sidenav;
+export default Navbar;

@@ -34,7 +34,7 @@ export default function Hero() {
   const paragraphContent = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae maiores neque eaque ea odit placeat, tenetur illum distinctio nulla voluptatum a corrupti beatae tempora aperiam quia id aliquam possimus aut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae maiores neque eaque ea odit placeat, tenetur illum distinctio nulla voluptatum a corrupti beatae tempora aperiam quia id aliquam possimus aut.`;
 
   return (
-    <div className="flex flex-col md:ml-10 lg:flex-row items-center">
+    <div className="flex flex-col md:ml-10 lg:flex-row items-center ">
       {/* Left side: Heading, Paragraph, and Button */}
       <div className="w-full lg:w-5/12 mb-10 lg:mb-0">
         <div className="container mx-auto h-full ">
