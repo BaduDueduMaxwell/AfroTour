@@ -34,10 +34,10 @@ export default function Hero() {
   const paragraphContent = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae maiores neque eaque ea odit placeat, tenetur illum distinctio nulla voluptatum a corrupti beatae tempora aperiam quia id aliquam possimus aut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae maiores neque eaque ea odit placeat, tenetur illum distinctio nulla voluptatum a corrupti beatae tempora aperiam quia id aliquam possimus aut.`;
 
   return (
-    <div className="flex flex-col lg:flex-row items-center mt-10">
+    <div className="flex flex-col md:ml-10 lg:flex-row items-center">
       {/* Left side: Heading, Paragraph, and Button */}
       <div className="w-full lg:w-5/12 mb-10 lg:mb-0">
-        <div className="container mx-auto h-full sm:p-10">
+        <div className="container mx-auto h-full ">
           <header className="container px-4 lg:flex flex-col h-full lg:mt-0">
             <div className="w-full">
               <HeroHeading heading={headingContent} />
@@ -51,7 +51,7 @@ export default function Hero() {
       </div>
 
       {/* Right side: Image */}
-      <div className="w-full lg:w-7/12">
+      <div className="container w-full lg:w-7/12">
         <HeroImage images={images} />
       </div>
     </div>
