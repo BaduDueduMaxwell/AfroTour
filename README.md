@@ -1,7 +1,3 @@
-Sure! Below is a sample README for your **AfroTour App**. Feel free to adjust it to fit your specific project details and goals.
-
----
-
 # AfroTour
 
 Welcome to **AfroTour**, a travel platform designed to showcase the rich and diverse beauty of Africa. AfroTour aims to connect travelers to unique African destinations, experiences, and cultures while offering personalized travel recommendations.
@@ -127,9 +123,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 - **Maxwell Duedu** - Project Lead
-- Email: maxwellduedu@example.com
-- GitHub: [MaxwellDuedu](https://github.com/MaxwellDuedu)
-
----
-
-Feel free to replace placeholders like `screenshots`, `your-username`, and specific feature descriptions with your actual details!
+- Email: duedumaxwell63@gmail.com
