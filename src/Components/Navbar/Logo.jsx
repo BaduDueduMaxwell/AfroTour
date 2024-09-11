@@ -5,7 +5,7 @@ export default function Logo() {
     <div>
       <a href="/" className="flex items-center">
         <img
-          src="https://flowbite.com/docs/images/logo.svg"
+          src="src/assets/afrotour.webp"
           className="h-8 mr-3"
           alt="AfroTour Logo"
         />
