@@ -15,7 +15,7 @@ export default function NavLink({ items, isMobile }) {
         className={`${
           isMobile
             ? "flex flex-col space-y-6"
-            : "flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white bg-gray-800 md:bg-gray-900 border-gray-700"
+            : "flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-900 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 bg-gray-800 md:bg-gray-900"
         }`}
       >
         {items.map((item, index) => (
@@ -24,8 +24,8 @@ export default function NavLink({ items, isMobile }) {
               href={item.href}
               className={`block py-2 pl-3 pr-4 rounded md:p-0 ${
                 item.active
-                  ? "text-slate-50 bg-sky-700 md:bg-transparent md:text-sky-700 md:text-sky-500"
-                  : "text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-sky-700 text-slate-50 hover:bg-gray-700 hover:text-slate-50 md:hover:bg-transparent"
+                  ? "text-slate-50 bg-sky-700 md:bg-transparent "
+                  : "hover:bg-gray-00 md:hover:text-sky-700 text-slate-50 hover:bg-gray-700 hover:text-slate-50 md:hover:bg-transparent"
               }`}
               aria-current={item.active ? "page" : undefined}
             >
