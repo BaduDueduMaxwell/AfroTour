@@ -104,7 +104,7 @@ For more details, visit the API documentation.
 
 | Home Page                         | Destination Details                  |
 |-----------------------------------|--------------------------------------|
-| ![Home](screenshots/home.png)     | ![Details](screenshots/details.png)  |
+| ![Home](./assets/HomeVideo.mov)     | ![Details](./assets/TripDetails.png)  |
 
 ## Contributing
 
