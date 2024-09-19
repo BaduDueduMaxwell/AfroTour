@@ -1,11 +1,12 @@
 import React from "react";
 import DestinationImage from "./DestinationImage";
 import DestinationParagraph from "./DestinationParagraph";
+import { Link } from "react-router-dom";
 
 export default function DestinationCard({ imageSrc, altText, destination, price, originalPrice }) {
   return (
     <div className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
-      <a href="#">
+       <Link to="/trip-details">
         <DestinationImage src={imageSrc} alt={altText} />
         <div className="px-4 py-3 w-72">
           <span className="text-gray-400 mr-3 uppercase text-xs">Explore</span>
@@ -21,7 +22,7 @@ export default function DestinationCard({ imageSrc, altText, destination, price,
             </del>
           </div>
         </div>
-      </a>
+      </Link>
     </div>
   );
 }
