@@ -20,7 +20,7 @@ export default function SignUp() {
   };
 
   const validateForm = () => {
-    const error = {};
+    const errors = {};
     // Username validation
     if (!username.trim()) {
       errors.username = "Username is required.";
@@ -68,7 +68,7 @@ export default function SignUp() {
     try {
       await register(userData); // Pass the user data object
       alert("Registration successful!");
-      navigate("/packages"); // Redirect to a protected route
+      navigate("/"); // Redirect to a protected route
     } catch (err) {
       console.error("Registration error", err);
       setFormError("Failed to sign up. Please try again.");
@@ -130,7 +130,7 @@ export default function SignUp() {
                 : "bg-sky-800 hover:bg-sky-700"
             }`}
           >
-            {isSubmitting ? "Processing..." : "Sign UP"}
+            {isSubmitting ? "Processing..." : "Sign Up"}
           </button>
           <p className="flex justify-center mt-6 text-sm text-slate-600">
             Already have an account?

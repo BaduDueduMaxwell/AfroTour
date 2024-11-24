@@ -21,7 +21,7 @@ module.exports = withMT({
         },
         slate: {
           50: "#f8fafc",
-          950: "#020617" // Example light slate color
+          950: "#020617", // Example light slate color
         },
       },
     },

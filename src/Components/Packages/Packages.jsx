@@ -6,7 +6,6 @@ import HeroImage from "../Hero/HeroImage";
 import DestinationHeading from "../Destinations/DestinationHeading";
 import DestinationCard from "../Destinations/DestinationCard";
 import { useNavigate } from "react-router-dom";
-import { Link } from "react-router-dom";
 
 export default function Packages() {
   const headingContent = (
@@ -72,7 +71,6 @@ export default function Packages() {
           <DestinationHeading title="Packages Available" />
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-5 gap-x-4 justify-items-center p-10">
-          <Link to="/trip-details">
             <DestinationCard
               imageSrc="https://images.unsplash.com/photo-1495562569060-2eec283d3391?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3BhaW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60"
               altText="Spain"
@@ -81,8 +79,7 @@ export default function Packages() {
               originalPrice="$2,990"
               onClick={handleCardClick}
             />
-          </Link>
-          <Link to="/trip-details">
+          
             <DestinationCard
               imageSrc="https://images.unsplash.com/photo-1564507004663-b6dfb3c824d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW9yb2Njb3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60"
               altText="Morocco"
@@ -91,8 +88,7 @@ export default function Packages() {
               originalPrice="$199"
               onClick={handleCardClick}
             />
-          </Link>
-          <Link to="/trip-details">
+          
             <DestinationCard
               imageSrc="https://images.unsplash.com/photo-1551918120-9739cb430c6d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG1hbGRpdmVzfGVufDB8fDB8fHww&auto=format&fit=crop&w=1000&q=60"
               altText="Maldives"
@@ -101,8 +97,7 @@ export default function Packages() {
               originalPrice="$199"
               onClick={handleCardClick}
             />
-          </Link>
-          <Link to="/trip-details">
+          
             <DestinationCard
               imageSrc="https://images.unsplash.com/photo-1549643276-fdf2fab574f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c3BhaW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60"
               altText="Italy"
@@ -111,8 +106,7 @@ export default function Packages() {
               originalPrice="$199"
               onClick={handleCardClick}
             />
-          </Link>
-          <Link to="/trip-details">
+          
             <DestinationCard
               imageSrc="https://images.unsplash.com/photo-1549643276-fdf2fab574f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c3BhaW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60"
               altText="Italy"
@@ -121,8 +115,7 @@ export default function Packages() {
               originalPrice="$199"
               onClick={handleCardClick}
             />
-          </Link>
-          <Link to="/trip-details">
+          
             <DestinationCard
               imageSrc="https://images.unsplash.com/photo-1551918120-9739cb430c6d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG1hbGRpdmVzfGVufDB8fDB8fHww&auto=format&fit=crop&w=1000&q=60"
               altText="Maldives"
@@ -131,8 +124,7 @@ export default function Packages() {
               originalPrice="$199"
               onClick={handleCardClick}
             />
-          </Link>
-          <Link to="/trip-details">
+          
             <DestinationCard
               imageSrc="https://images.unsplash.com/photo-1564507004663-b6dfb3c824d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW9yb2Njb3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60"
               altText="Morocco"
@@ -141,8 +133,7 @@ export default function Packages() {
               originalPrice="$199"
               onClick={handleCardClick}
             />
-          </Link>
-          <Link to="/trip-details">
+          
             <DestinationCard
               imageSrc="https://images.unsplash.com/photo-1495562569060-2eec283d3391?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3BhaW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60"
               altText="Spain"
@@ -151,7 +142,7 @@ export default function Packages() {
               originalPrice="$2,990"
               onClick={handleCardClick}
             />
-          </Link>
+          
         </div>
       </section>
     </>

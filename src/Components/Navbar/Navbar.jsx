@@ -11,6 +11,7 @@ export default function Navbar() {
     { name: "Packages", href: "/packages" },
     { name: "About", href: "/about" },
     { name: "Contact", href: "/contact" },
+    { name: "Signup", href: "/signup" },
   ];
 
   const handleNav = () => {
